@@ -1,5 +1,8 @@
 {
-    "name": "ojowbe/combell-cli",
+    "name": "fabricejp/combell-cli",
+    "description": "A lightweight Symfony Console-based CLI to interact with the Combell API.",
+    "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Ojowbe\\CombellCli\\": "src/"
@@ -7,13 +10,16 @@
     },
     "authors": [
         {
-            "name": "FabriceJP"
+            "name": "Fabrice JP",
+            "email": "fabricejp@users.noreply.github.com"
         }
     ],
     "require": {
+        "php": "^8.1",
         "symfony/console": "^7.3",
         "tomcan/combell-api": "^5.0",
         "guzzlehttp/guzzle": "^7.10",
         "symfony/dotenv": "^7.3"
     }
 }
+
