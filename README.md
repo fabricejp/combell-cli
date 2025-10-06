@@ -117,15 +117,16 @@ Example output:
 
 combell-cli/
 ├── bin/
-│ └── console
+│   └── console                    # Main Symfony Console entrypoint
 ├── src/
-│ └── Command/
-│ ├── CombellCommand.php
-│ └── ListCombellCommands.php
-├── .env.example
+│   └── Command/
+│       ├── CombellCommand.php     # Executes API commands dynamically
+│       └── ListCombellCommands.php # Lists all available API commands
+├── .env.example                   # Example environment configuration
 ├── composer.json
 ├── README.md
 └── .gitignore
+
 
 ⚙️ Requirements
 
