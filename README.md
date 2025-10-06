@@ -25,12 +25,15 @@ This CLI lets you query, create, and manage your Combell services (accounts, dom
 🪶 Lightweight (only PHP + Composer required)
 
 🧱 Installation
+
 1️⃣ Clone and install dependencies
 
+```
 git clone https://github.com/fabricejp/combell-cli.git
 
 cd combell-cli
 composer install
+```
 
 2️⃣ Copy and configure environment variables
 
