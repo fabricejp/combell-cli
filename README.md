@@ -207,20 +207,6 @@ Combell API key + secret
 
 (Optional) jq for JSON parsing
 
-🧪 Troubleshooting
-Problem	Cause	Fix
-Missing COMBELL_API_KEY or COMBELL_API_SECRET	.env not set	Copy .env.example → .env and fill in credentials
-Combell API library not found	Wrong vendor path	Ensure vendor/tomcan/combell-api/src/Command exists
-Repository not found	Wrong GitHub username	Update with git remote set-url origin git@github.com:fabricejp/combell-cli.git
-🐳 Optional: Run with Docker
-
-docker run --rm -it
--v $(pwd):/app
--w /app
-php:8.3-cli
-bash -c "apt-get update && apt-get install -y git unzip && php -r "copy('https://getcomposer.org/installer
-', 'composer-setup.php');" && php composer-setup.php && ./composer.phar install && ./bin/console combell:list"
-
 🧩 Contributing
 
 Pull requests are welcome!
