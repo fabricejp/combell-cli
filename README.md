@@ -61,23 +61,55 @@ All commands are executed through the Symfony runner in bin/console.
 ```
 
 Example output:
+
+```
 Available Combell API commands:
 
+ - AbstractCommand (params: string $method, string $endPoint)
+ - Accounts\CreateAccount (params: string $identifier, int $servicePack, ?string $password = null)
+ - Accounts\GetAccount (params: int $id)
+ - Accounts\ListAccounts (params: string $assetType = '', string $identifier = '')
+ - Dns\CreateRecord (params: string $domainName, AbstractDnsRecord $record)
+ - Dns\DeleteRecord (params: string $domainName, AbstractDnsRecord $record)
+ - Dns\GetRecord (params: string $domainName, string $id)
+ - Dns\ListRecords (params: string $domainName)
+ - Dns\UpdateRecord (params: string $domainName, AbstractDnsRecord $record)
+ - Domains\GetDomain (params: string $domain)
+ - Domains\ListDomains
+ - Domains\RegisterDomain (params: string $domainName, array $nameServers)
+ - Domains\SetNameServers (params: string $domainName, array $nameServers)
+ - Domains\TransferDomain (params: string $domainName, string $authCode)
+ - LinuxHostings\AddSshKey (params: string $domainName, string $pubKey)
+ - LinuxHostings\ConfigureFtp (params: string $domainName, bool $enabled)
+ - LinuxHostings\ConfigureSsh (params: string $domainName, bool $enabled)
+ - LinuxHostings\CreateSubSite (params: string $domainName, string $subSiteDomainName, string $path = '')
+ - LinuxHostings\DeleteSshKey (params: string $domainName, string $fingerprint)
+ - LinuxHostings\GetAvailablePhpVersions (params: string $domainName)
+ - LinuxHostings\GetLinuxHosting (params: string $domainName)
+ - LinuxHostings\ListLinuxHostings
+ - LinuxHostings\ListSshKeys (params: string $domainName)
+ - LinuxHostings\SetAutoRedirectSsl (params: string $domainName, string $hostname, bool $enabled)
+ - LinuxHostings\SetGzipCompression (params: string $domainName, bool $enabled)
+ - LinuxHostings\SetHttp2 (params: string $domainName, string $siteName, bool $enabled)
+ - LinuxHostings\SetLetsEncrypt (params: string $domainName, string $hostname, bool $enabled)
+ - LinuxHostings\SetPhpApcu (params: string $domainName, int $apcuSize, bool $enabled)
+ - LinuxHostings\SetPhpMemoryLimit (params: string $domainName, int $memoryLimit)
+ - LinuxHostings\SetPhpVersion (params: string $domainName, string $phpVersion)
+ - Mailboxes\CreateMailbox (params: string $domainName, string $email, string $password, int $accountId)
+ - Mailboxes\GetMailboxes (params: string $domainName)
+ - Mailboxes\GetQuota (params: string $domainName)
+ - MysqlDatabases\CreateMysqlDatabase (params: string $database, int $account, string $password)
+ - MysqlDatabases\GetMysqlDatabase (params: string $databaseName)
+ - MysqlDatabases\ListMysqlDatabases
+ - PageableAbstractCommand
+ - ProvisioningJobs\GetProvisioningJob (params: string $jobId)
+ - Servicepacks\ListServicepacks
+ - Ssh\ListSshKeys
+ - WindowsHostings\GetWindowsHosting (params: string $domainName)
+ - WindowsHostings\ListWindowsHostings
+
+Tip: run ./bin/console combell:run "<Command>" --params='[...]'
 ```
-Accounts\ListAccounts ()
-
-Accounts\GetAccount (params: int $id)
-
-Domains\ListDomains ()
-
-Domains\GetDomain (params: string $domainName)
-
-MysqlDatabases\ListMysqlDatabases (params: int $account)
-
-MysqlDatabases\CreateMysqlDatabase (params: string $database, int $account, string $password)
-```
-
-Tip: run
 
 ```
 ./bin/console combell:run "<Command>" --params='[...]'
