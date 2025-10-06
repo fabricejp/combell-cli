@@ -115,6 +115,7 @@ Example output:
 
 🧩 Directory structure
 
+```
 combell-cli/
 ├── bin/
 │   └── console                    # Main Symfony Console entrypoint
@@ -126,7 +127,7 @@ combell-cli/
 ├── composer.json
 ├── README.md
 └── .gitignore
-
+```
 
 ⚙️ Requirements
 
