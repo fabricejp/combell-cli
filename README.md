@@ -37,7 +37,9 @@ composer install
 
 2️⃣ Copy and configure environment variables
 
+```
 cp .env.example .env
+```
 
 Then edit .env and fill in your Combell API credentials:
 
