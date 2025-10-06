@@ -26,6 +26,7 @@ no HMAC debugging, no Guzzle wiring.
 
 🚀 Features
 
+```
 🔧 Generic command runner: combell:run
 
 📜 Automatic command discovery: combell:list
@@ -35,6 +36,7 @@ no HMAC debugging, no Guzzle wiring.
 🧩 JSON-formatted output for automation
 
 🪶 Lightweight (only PHP + Composer required)
+```
 
 🧱 Installation
 
