@@ -14,7 +14,7 @@ This CLI lets you query, create, and manage your Combell services such as
 Combell’s official API https://api.combell.com/v2/documentation is powerful,
 but it expects you to understand HMAC authentication, HTTP signing,
 and API request flow before you can make your first call.
-The PHP SDK from Intracto/combell-api wraps the API elegantly, yet still
+The PHP SDK from tomcan/combell-api wraps the API elegantly, yet still
 requires developers to write boilerplate code and understand
 Combell’s internal command structure.
 
