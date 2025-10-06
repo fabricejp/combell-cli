@@ -6,16 +6,17 @@
 
 ```
 A lightweight Symfony Console-based CLI to interact with the Combell API,
-built on top of the TomCan/combell-api PHP SDK.
+built on top of the https://packagist.org/packages/tomcan/combell-api PHP SDK.
 
 This CLI lets you query, create, and manage your Combell services such as
 (accounts, domains, databases, etc.) securely — right from your terminal.
 
-Combell’s official API (api.combell.com/v2) is powerful, but it expects you
-to understand HMAC authentication, HTTP signing, and API request flow before
-you can make your first call. The PHP SDK from Intracto/combell-api wraps
-the API elegantly, yet still requires developers to write boilerplate code
-and understand Combell’s internal command structure.
+Combell’s official API https://api.combell.com/v2/documentation is powerful,
+but it expects you to understand HMAC authentication, HTTP signing,
+and API request flow before you can make your first call.
+The PHP SDK from Intracto/combell-api wraps the API elegantly, yet still
+requires developers to write boilerplate code and understand
+Combell’s internal command structure.
 
 fabricejp/combell-cli bridges that gap.
 It provides a ready-to-use CLI interface on top of the SDK, making the
