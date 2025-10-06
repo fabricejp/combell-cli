@@ -263,8 +263,8 @@ composer install
 cp .env.example .env
 ```
 
-Fill in your credentials in the .env file
-
+Don't forget to fill in your credentials in the .env file,
+and start using it.
 
 
 ```
