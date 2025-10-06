@@ -263,7 +263,9 @@ composer install
 cp .env.example .env
 ```
 
-Fill in your credentials
+Fill in your credentials in the .env file
+
+
 
 ```
 ./bin/console combell:list
