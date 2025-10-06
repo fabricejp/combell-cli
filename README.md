@@ -66,7 +66,9 @@ COMBELL_API_SECRET=your_api_secret_here
 
 🧰 Usage
 
+```
 All commands are executed through the Symfony runner in bin/console.
+```
 
 🔹 List all available Combell API commands
 
@@ -213,6 +215,7 @@ combell-cli/
 
 ⚙️ Requirements
 
+```
 PHP ≥ 8.1
 
 Composer
@@ -233,31 +236,38 @@ Create a feature branch (git checkout -b feature/my-new-command)
 Commit (git commit -m 'Add new feature')
 
 Push (git push origin feature/my-new-command)
+```
 
 Open a PR 🎉
 
 🧾 License
 
-MIT License — see LICENSE
- for details.
+```
+MIT License — see LICENSEmfor details.
+```
 
 👤 Author
 
+```
 Fabrice JP
 📍 Belgium
 🔗 https://github.com/fabricejp
+```
 
 💬 Quick start
 
+```
 git clone https://github.com/fabricejp/combell-cli.git
-
 cd combell-cli
 composer install
 cp .env.example .env
+```
 
 Fill in your credentials
 
+```
 ./bin/console combell:list
 ./bin/console combell:run "Domains\ListDomains"
+```
 
 Enjoy your new lightweight Combell CLI 🚀
