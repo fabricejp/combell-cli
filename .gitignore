@@ -1,0 +1,16 @@
+# Dependencies
+/vendor/
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# OS / IDE files
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Composer
+composer.lock

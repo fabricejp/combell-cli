@@ -1,0 +1,19 @@
+{
+    "name": "ojowbe/combell-cli",
+    "autoload": {
+        "psr-4": {
+            "Ojowbe\\CombellCli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FabriceJP"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.3",
+        "tomcan/combell-api": "^5.0",
+        "guzzlehttp/guzzle": "^7.10",
+        "symfony/dotenv": "^7.3"
+    }
+}
