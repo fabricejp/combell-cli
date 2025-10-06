@@ -56,11 +56,14 @@ All commands are executed through the Symfony runner in bin/console.
 
 🔹 List all available Combell API commands
 
+```
 ./bin/console combell:list
+```
 
 Example output:
 Available Combell API commands:
 
+```
 Accounts\ListAccounts ()
 
 Accounts\GetAccount (params: int $id)
@@ -72,8 +75,13 @@ Domains\GetDomain (params: string $domainName)
 MysqlDatabases\ListMysqlDatabases (params: int $account)
 
 MysqlDatabases\CreateMysqlDatabase (params: string $database, int $account, string $password)
+```
 
-Tip: run ./bin/console combell:run "<Command>" --params='[...]'
+Tip: run
+
+```
+./bin/console combell:run "<Command>" --params='[...]'
+```
 
 🔹 Run a specific API command
 
