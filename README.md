@@ -111,41 +111,60 @@ Available Combell API commands:
 Tip: run ./bin/console combell:run "<Command>" --params='[...]'
 ```
 
-```
-./bin/console combell:run "<Command>" --params='[...]'
-```
-
 🔹 Run a specific API command
 
 You can execute any command from the Combell SDK dynamically.
 
 Syntax:
+
+```
 ./bin/console combell:run "<CommandNamespace>" --params='[<parameters>]'
+```
 
 Examples:
 
 List all accounts:
+
+```
 ./bin/console combell:run "Accounts\ListAccounts"
+```
 
 Get a specific account:
+
+```
 ./bin/console combell:run "Accounts\GetAccount" --params='[1803311]'
+```
+
 
 List all domains:
+
+```
 ./bin/console combell:run "Domains\ListDomains"
+```
 
 Get a domain:
+
+```
 ./bin/console combell:run "Domains\GetDomain" --params='["example.com"]'
+```
 
 Create a MySQL database:
+
+```
 ./bin/console combell:run "MysqlDatabases\CreateMysqlDatabase" --params='["awesomedomain",1803311,"fhtjfdfdkdl,,,"]'
+```
 
 🔹 Output
 
 All results are JSON — perfect for scripting or using with jq:
 
+```
 ./bin/console combell:run "Accounts\ListAccounts" | jq .
+```
 
 Example output:
+
+```
 [
 {
 "id": 1803311,
@@ -160,6 +179,7 @@ Example output:
 "addons": []
 }
 ]
+```
 
 🧩 Directory structure
 
