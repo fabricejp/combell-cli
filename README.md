@@ -43,8 +43,10 @@ cp .env.example .env
 
 Then edit .env and fill in your Combell API credentials:
 
+```
 COMBELL_API_KEY=your_api_key_here
 COMBELL_API_SECRET=your_api_secret_here
+```
 
 ⚠️ Never commit your .env file — it’s ignored by .gitignore.
 
