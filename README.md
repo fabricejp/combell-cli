@@ -8,7 +8,8 @@
 A lightweight Symfony Console-based CLI to interact with the Combell API,
 built on top of the TomCan/combell-api PHP SDK.
 
-This CLI lets you query, create, and manage your Combell services (accounts, domains, databases, etc.) securely — right from your terminal.
+This CLI lets you query, create, and manage your Combell services (accounts, domains, databases, etc.)
+securely — right from your terminal.
 ```
 
 🚀 Features
