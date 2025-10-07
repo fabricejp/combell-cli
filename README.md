@@ -41,13 +41,13 @@ no HMAC debugging, no Guzzle wiring.
 
 🧱 Installation
 
-1️⃣ Clone and install dependencies
+1️⃣  Install dependencies
 
 ```
-git clone https://github.com/fabricejp/combell-cli.git
-
-cd combell-cli
-composer install
+$ git clone https://github.com/fabricejp/combell-cli.git
+$ cd combell-cli
+$ composer install
+$ chmod -x bin/console
 ```
 
 2️⃣ Copy and configure environment variables
