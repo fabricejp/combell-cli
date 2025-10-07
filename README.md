@@ -77,7 +77,7 @@ All commands are executed through the Symfony runner in bin/console.
 ./bin/console combell:list
 ```
 
-Example output:
+Snippet of example output:
 
 ```
 Available Combell API commands:
