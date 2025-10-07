@@ -244,7 +244,7 @@ Open a PR 🎉
 🧾 License
 
 ```
-MIT License — see LICENSEmfor details.
+MIT License — see LICENSE for details.
 ```
 
 👤 Author
