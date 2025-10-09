@@ -239,9 +239,9 @@ Create a feature branch (git checkout -b feature/my-new-command)
 Commit (git commit -m 'Add new feature')
 
 Push (git push origin feature/my-new-command)
-```
 
 Open a PR 🎉
+```
 
 🧾 License
 
