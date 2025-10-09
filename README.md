@@ -224,9 +224,11 @@ Composer
 Combell API key + secret
 
 (Optional) jq for JSON parsing
+``````
 
 🧩 Contributing
 
+```
 Pull requests are welcome!
 To contribute:
 
