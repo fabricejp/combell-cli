@@ -41,7 +41,7 @@ no HMAC debugging, no Guzzle wiring.
 
 🧱 Installation
 
-1️⃣  Install dependencies
+Install dependencies
 
 ```
 $ git clone https://github.com/fabricejp/combell-cli.git
@@ -50,7 +50,7 @@ $ composer install
 $ chmod -x bin/console
 ```
 
-2️⃣ Copy and configure environment variables
+Copy and configure environment variables
 
 ```
 cp .env.example .env
